@@ -26,6 +26,12 @@ img {
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 5px;
+
+  &:hover {
+    background-color: #f9faf8;
+    color: #3882f6;
+    cursor: pointer;
+  }
 }
 
 /* Header */
@@ -82,6 +88,45 @@ header {
   & p {
     font-size: 18px;
     color: #e5e7eb;
-    /* margin: 0.5rem 0; */
+  }
+}
+
+/* Cards list */
+
+.cards {
+  padding: 5rem 0;
+
+  .section-heading {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    letter-spacing: -1px;
+    padding-bottom: 3rem;
+  }
+}
+
+.cards-list {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    & img {
+      width: 100%;
+      height: auto;
+      border: 3px solid #3882f6;
+      border-radius: 10px;
+    }
+
+    & p {
+      text-align: center;
+      max-width: 150px;
+    }
   }
 }
