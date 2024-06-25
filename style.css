@@ -191,3 +191,16 @@ header {
     }
   }
 }
+
+/* Footer */
+
+footer {
+  padding: 3rem 0;
+  text-align: center;
+  color: #f9faf8;
+  background-color: #1f2937;
+
+  & h4 {
+    font-weight: 400;
+  }
+}
