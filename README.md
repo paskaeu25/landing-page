@@ -31,7 +31,7 @@ To get a local copy of this project up and running on your machine, follow these
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/yourusername/landing-page.git
+   git clone https://github.com/paskaeu25/landing-page.git
    ```
 
 2. **Navigate to the project directory:**
